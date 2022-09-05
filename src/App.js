@@ -85,6 +85,7 @@ function App() {
 
       })
       .catch(err => {
+        toast.error('Houve um erro ao tentar cadastrar o colaborador...')
         console.log('erro', err);
         setLoading(false);
       });
