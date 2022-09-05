@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    // baseURL: 'https://omega-form-back.herokuapp.com'
-    baseURL: 'http://localhost:3001'
+    baseURL: process.env.REACT_APP_API_URL
 });
 
 export default api;
