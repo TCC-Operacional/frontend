@@ -109,6 +109,8 @@ form label {
 
 form > p {
   text-align: center;
+  font-size: 18px;
+  color: #f06d16;
 }
 
 footer {
