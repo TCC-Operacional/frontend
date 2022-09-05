@@ -84,7 +84,10 @@ function App() {
         setLoading(false);
 
       })
-      .catch(err => console.log('erro', err));
+      .catch(err => {
+        console.log('erro', err);
+        setLoading(false);
+      });
   };
 
   return (
